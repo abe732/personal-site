@@ -9,7 +9,7 @@ var router = express.Router();
 
 app.use(bodyParser.json());
 
-app.use(express.static(__dirname + '/../scripts'));
+app.use(express.static(__dirname + '/../app'));
 
 app.listen(port, function() {
   console.log('Listening on port ' + port + '!');

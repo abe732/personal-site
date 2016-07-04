@@ -1,0 +1,25 @@
+{
+  "name": "personal-site",
+  "description": "Personal website of Adam Behrens",
+  "main": "index.js",
+  "authors": [
+    "Adam Behrens"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "behrens",
+    "personal",
+    "website"
+  ],
+  "homepage": "https://github.com/abe732/personal-site",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.7"
+  }
+}
